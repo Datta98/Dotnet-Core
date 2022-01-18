@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BMICalculator/1.0.0": {
+        "dependencies": {
+          "BMIResultDisplayLib": "1.0.0",
+          "BMIUserInputLib": "1.0.0",
+          "BMIValueCalculationLib": "1.0.0",
+          "BMIValueValidationLib": "1.0.0"
+        },
+        "runtime": {
+          "BMICalculator.dll": {}
+        }
+      },
+      "BMIResultDisplayLib/1.0.0": {
+        "runtime": {
+          "BMIResultDisplayLib.dll": {}
+        }
+      },
+      "BMIUserInputLib/1.0.0": {
+        "runtime": {
+          "BMIUserInputLib.dll": {}
+        }
+      },
+      "BMIValueCalculationLib/1.0.0": {
+        "dependencies": {
+          "BMIUserInputLib": "1.0.0"
+        },
+        "runtime": {
+          "BMIValueCalculationLib.dll": {}
+        }
+      },
+      "BMIValueValidationLib/1.0.0": {
+        "dependencies": {
+          "BMIValueCalculationLib": "1.0.0"
+        },
+        "runtime": {
+          "BMIValueValidationLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BMICalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BMIResultDisplayLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BMIUserInputLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BMIValueCalculationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BMIValueValidationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

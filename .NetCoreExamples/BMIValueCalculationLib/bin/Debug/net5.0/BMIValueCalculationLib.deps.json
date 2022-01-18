@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BMIValueCalculationLib/1.0.0": {
+        "dependencies": {
+          "BMIUserInputLib": "1.0.0"
+        },
+        "runtime": {
+          "BMIValueCalculationLib.dll": {}
+        }
+      },
+      "BMIUserInputLib/1.0.0": {
+        "runtime": {
+          "BMIUserInputLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BMIValueCalculationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BMIUserInputLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

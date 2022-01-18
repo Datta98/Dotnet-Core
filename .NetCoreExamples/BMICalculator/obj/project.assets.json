@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BMIResultDisplayLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BMIResultDisplayLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BMIResultDisplayLib.dll": {}
+        }
+      },
+      "BMIUserInputLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BMIUserInputLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BMIUserInputLib.dll": {}
+        }
+      },
+      "BMIValueCalculationLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BMIUserInputLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BMIValueCalculationLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BMIValueCalculationLib.dll": {}
+        }
+      },
+      "BMIValueValidationLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BMIValueCalculationLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BMIValueValidationLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BMIValueValidationLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BMIResultDisplayLib/1.0.0": {
+      "type": "project",
+      "path": "../BMIResultDisplayLib/BMIResultDisplayLib.csproj",
+      "msbuildProject": "../BMIResultDisplayLib/BMIResultDisplayLib.csproj"
+    },
+    "BMIUserInputLib/1.0.0": {
+      "type": "project",
+      "path": "../BMIUserInputLib/BMIUserInputLib.csproj",
+      "msbuildProject": "../BMIUserInputLib/BMIUserInputLib.csproj"
+    },
+    "BMIValueCalculationLib/1.0.0": {
+      "type": "project",
+      "path": "../BMIValueCalculationLib/BMIValueCalculationLib.csproj",
+      "msbuildProject": "../BMIValueCalculationLib/BMIValueCalculationLib.csproj"
+    },
+    "BMIValueValidationLib/1.0.0": {
+      "type": "project",
+      "path": "../BMIValueValidationLib/BMIValueValidationLib.csproj",
+      "msbuildProject": "../BMIValueValidationLib/BMIValueValidationLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BMIResultDisplayLib >= 1.0.0",
+      "BMIUserInputLib >= 1.0.0",
+      "BMIValueCalculationLib >= 1.0.0",
+      "BMIValueValidationLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\shridatta.r\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMICalculator\\BMICalculator.csproj",
+      "projectName": "BMICalculator",
+      "projectPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMICalculator\\BMICalculator.csproj",
+      "packagesPath": "C:\\Users\\shridatta.r\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMICalculator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\shridatta.r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIResultDisplayLib\\BMIResultDisplayLib.csproj": {
+              "projectPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIResultDisplayLib\\BMIResultDisplayLib.csproj"
+            },
+            "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIUserInputLib\\BMIUserInputLib.csproj": {
+              "projectPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIUserInputLib\\BMIUserInputLib.csproj"
+            },
+            "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIValueCalculationLib\\BMIValueCalculationLib.csproj": {
+              "projectPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIValueCalculationLib\\BMIValueCalculationLib.csproj"
+            },
+            "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIValueValidationLib\\BMIValueValidationLib.csproj": {
+              "projectPath": "C:\\Users\\shridatta.r\\Documents\\Visual Studio 2019\\Bootcamp Practice\\DotnetCore\\BMIValueValidationLib\\BMIValueValidationLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
